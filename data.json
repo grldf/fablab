@@ -1,0 +1,23 @@
+{
+  "lastUpdated": "2026-05-06T17:30:00Z",
+  "resources": [
+    {
+      "url": "https://moldboxer.com/",
+      "note": "Créer des moules",
+      "description": "Outil en ligne qui génère automatiquement une boîte de moulage autour d'un modèle 3D. Pratique pour préparer un fichier prêt à imprimer pour du moulage en silicone ou résine.",
+      "category": "Modélisation 3D",
+      "categorySource": "ai",
+      "date": "2026-05-06T17:26:41Z",
+      "domain": "moldboxer.com"
+    },
+    {
+      "url": "https://app.cookiecad.com/",
+      "note": "Pour créer des emportes pièces",
+      "description": "Application web qui transforme une image ou un logo en emporte-pièce 3D imprimable. Génère un fichier STL prêt à envoyer à une imprimante.",
+      "category": "Fabrication numérique",
+      "categorySource": "ai",
+      "date": "2026-05-06T17:25:53Z",
+      "domain": "app.cookiecad.com"
+    }
+  ]
+}
