@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-05-12T08:55:58+00:00",
+  "lastUpdated": "2026-05-12T09:33:07+00:00",
   "resources": [
+    {
+      "id": "<PR0P264MB428291602D53C9EC7E832C5CE5392@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://www.templatemaker.nl/fr/",
+      "note": "[cid:image001.png@01DCE202.EA22E680]\r\nYohan CALLET\r\nResponsable Unité innovation\r\nEspace d'innovation numérique\r\nPôle développement\r\n[cid:image002.png@01DCE202.EA22E680]\r\nwww.fablabroannaisagglomeration.fr<http://www.fablabroannaisagglomeration.fr/>\r\nTéléphone :\r\n04 77 23 78 63\r\nFabLab Roannais Agglomération - Numériparc -  27 Rue Lucien Langenieux - 42300 Roanne",
+      "description": "Templatemaker est un générateur gratuit de gabarits personnalisés pour le papier craft, l'emballage et le packaging. Cet outil permet de créer et télécharger des modèles aux dimensions exactes en plusieurs formats (PDF, etc.) pour l'impression, le découpage et le pliage.",
+      "category": "2D",
+      "categorySource": "manual",
+      "date": "2026-05-12T09:31:47+00:00",
+      "domain": "www.templatemaker.nl"
+    },
     {
       "id": "<PR1P264MB1807330121E6433E2EFBC6EF8D392@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://generationia.flint.media/",
@@ -31,12 +41,32 @@
       "domain": "moldboxer.com"
     },
     {
+      "id": "<PR1P264MB18078BA65FACD2995F81B73A8D3F2@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://moldboxer.com/",
+      "note": "Créer des moules",
+      "description": "MoldBoxer est un outil spécialisé dans la création et l'optimisation de moules pour la fabrication. Il permet de concevoir des moules complexes en automatisant les processus de modélisation et d'analyse.",
+      "category": "Fabrication numérique",
+      "categorySource": "ai",
+      "date": "2026-05-06T17:26:41+00:00",
+      "domain": "moldboxer.com"
+    },
+    {
       "url": "https://app.cookiecad.com/",
       "note": "Pour créer des emportes pièces",
       "description": "Application web qui transforme une image ou un logo en emporte-pièce 3D imprimable. Génère un fichier STL prêt à envoyer à une imprimante.",
       "category": "Fabrication numérique",
       "categorySource": "ai",
       "date": "2026-05-06T17:25:53Z",
+      "domain": "app.cookiecad.com"
+    },
+    {
+      "id": "<PR1P264MB1807F4D49262B34464B81C328D3F2@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://app.cookiecad.com/",
+      "note": "Pour créer des emportes pièces",
+      "description": "Cookiecad Designer est un outil en ligne permettant de créer et personnaliser des emportes-pièces pour biscuits. L'application facilite la conception numérique de ces outils avant leur fabrication.",
+      "category": "Fabrication numérique",
+      "categorySource": "ai",
+      "date": "2026-05-06T17:25:53+00:00",
       "domain": "app.cookiecad.com"
     }
   ]
