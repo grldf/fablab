@@ -285,6 +285,7 @@ def main() -> int:
     client = Anthropic(api_key=anthropic_key)
     data = load_existing_data()
     existing_ids = {r.get("id") for r in data["resources"] if r.get("id")}
+    existing_urls = {r["url"].rstrip("/") for r in data["resources"] if r.get("url")}
     existing_categories = sorted(
         {r["category"] for r in data["resources"] if r.get("category")}
     )
@@ -305,6 +306,9 @@ def main() -> int:
         url, note = extract_url_and_note(msg["body"])
         if not url:
             print(f"  ⚠ Pas d'URL dans le message : {msg['subject']!r}")
+            continue
+        if url.rstrip("/") in existing_urls:
+            print(f"  ↪ Déjà publié (même URL) : {url}")
             continue
 
         domain = urlparse(url).netloc
