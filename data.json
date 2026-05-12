@@ -4,7 +4,7 @@
     {
       "id": "<PR0P264MB4282388395363C155CAC382AE5392@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://boxes.hackerspace-bamberg.de/",
-      "note": "[cid:image001.png@01DCE203.16997FD0]\nYohan CALLET\nResponsable Unité innovation\nEspace d'innovation numérique\nPôle développement\n[cid:image002.png@01DCE203.16997FD0]\nwww.fablabroannaisagglomeration.fr<>\nTéléphone :\n04 77 23 78 63\nFabLab Roannais Agglomération - Numériparc -  27 Rue Lucien Langenie…",
+      "note": "",
       "description": "Boxes.py est un générateur de boîtes open source écrit en Python permettant de créer des boîtes et autres objets à découper à la découpeuse laser. La plateforme propose une galerie de modèles paramétrables pré-conçus ainsi qu'une API Python pour créer vos propres designs avec joints, charnières, gravures et bien d'autres fonctionnalités.",
       "category": "2D",
       "categorySource": "manual",
