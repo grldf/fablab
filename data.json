@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-05-07T11:37:28+00:00",
+  "lastUpdated": "2026-05-12T08:55:58+00:00",
   "resources": [
+    {
+      "id": "<PR1P264MB1807330121E6433E2EFBC6EF8D392@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://generationia.flint.media/",
+      "note": "",
+      "description": "Newsletter bimensuelle spécialisée dans l'intelligence artificielle proposant des outils triés, des tutoriels pratiques et des articles vulgarisés sur l'IA. Plateforme d'apprentissage et de coaching avec plus de 42 000 lecteurs.",
+      "category": "Intelligence artificielle",
+      "categorySource": "ai",
+      "date": "2026-05-12T08:52:31+00:00",
+      "domain": "generationia.flint.media"
+    },
     {
       "id": "<PR1P264MB1807FF616FD1B31E129397298D3C2@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://www.gassendi.asso.fr/wpg/fusion-360/support-de-cours-fusion-360/",
