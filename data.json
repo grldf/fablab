@@ -61,25 +61,6 @@
       "domain": "moldboxer.com"
     },
     {
-      "id": "<PR1P264MB18078BA65FACD2995F81B73A8D3F2@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
-      "url": "https://moldboxer.com/",
-      "note": "",
-      "description": "Moldboxer est une plateforme pour créer et concevoir des moules numériquement. Elle permet de modéliser et de préparer des moules avant leur fabrication.",
-      "category": "Modélisation 3D",
-      "categorySource": "ai",
-      "date": "2026-05-06T17:26:41+00:00",
-      "domain": "moldboxer.com"
-    },
-    {
-      "url": "https://app.cookiecad.com/",
-      "note": "Pour créer des emportes pièces",
-      "description": "Application web qui transforme une image ou un logo en emporte-pièce 3D imprimable. Génère un fichier STL prêt à envoyer à une imprimante.",
-      "category": "Fabrication numérique",
-      "categorySource": "ai",
-      "date": "2026-05-06T17:25:53Z",
-      "domain": "app.cookiecad.com"
-    },
-    {
       "id": "<PR1P264MB1807F4D49262B34464B81C328D3F2@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://app.cookiecad.com/",
       "note": "Pour créer des emportes pièces",
