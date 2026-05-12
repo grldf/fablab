@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-05-12T09:48:30+00:00",
+  "lastUpdated": "2026-05-12T10:03:55+00:00",
   "resources": [
+    {
+      "id": "<PR0P264MB428203E43505895B5FBD2AF9E5392@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://spiralbetty.com/",
+      "note": "",
+      "description": "Spiral Betty est un site web personnel ou portfolio. Sans contenu visible dans l'extrait fourni, il est difficile de déterminer précisément sa fonction, mais le domaine suggère une présence en ligne créative ou professionnelle.",
+      "category": "Portfolio",
+      "categorySource": "ai",
+      "date": "2026-05-12T09:59:18+00:00",
+      "domain": "spiralbetty.com"
+    },
     {
       "id": "<PR0P264MB4282388395363C155CAC382AE5392@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://boxes.hackerspace-bamberg.de/",
@@ -48,6 +58,16 @@
       "category": "Modélisation 3D",
       "categorySource": "ai",
       "date": "2026-05-06T17:26:41Z",
+      "domain": "moldboxer.com"
+    },
+    {
+      "id": "<PR1P264MB18078BA65FACD2995F81B73A8D3F2@PR1P264MB1807.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://moldboxer.com/",
+      "note": "",
+      "description": "Moldboxer est une plateforme pour créer et concevoir des moules numériquement. Elle permet de modéliser et de préparer des moules avant leur fabrication.",
+      "category": "Modélisation 3D",
+      "categorySource": "ai",
+      "date": "2026-05-06T17:26:41+00:00",
       "domain": "moldboxer.com"
     },
     {
