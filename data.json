@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-05-12T10:03:55+00:00",
+  "lastUpdated": "2026-05-13T08:36:25+00:00",
   "resources": [
+    {
+      "id": "<PR0P264MB42822FC90D6402B694611DECE5392@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://stephaneginier.com/sculptgl/",
+      "note": "Outils de sculpture 3D en ligne",
+      "description": "SculptGL est une application de sculpture 3D basée sur WebGL permettant de créer et de modeler des sculptures numériques directement dans le navigateur web.",
+      "category": "Modélisation 3D",
+      "categorySource": "ai",
+      "date": "2026-05-12T11:22:18+00:00",
+      "domain": "stephaneginier.com"
+    },
     {
       "id": "<PR0P264MB428203E43505895B5FBD2AF9E5392@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://spiralbetty.com/",
