@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-05-13T08:36:25+00:00",
+  "lastUpdated": "2026-06-04T08:28:16+00:00",
   "resources": [
+    {
+      "id": "<CAA7evP_y7Sj=++SvbyPA0+ApHXhi_8LMUiQ=zP1Wfau3soGyWw@mail.gmail.com>",
+      "url": "https://grid.space/kiri/",
+      "note": "",
+      "description": "Kiri:Moto est un logiciel de slicing 3D basé sur navigateur, conçu pour convertir des modèles 3D en code machine (G-code) pour imprimantes 3D, découpeuses laser et autres machines de fabrication numérique. Il offre de nombreuses fonctionnalités avancées comme la génération de contours, le fraisage et supporte l'export vers plusieurs formats.",
+      "category": "Fabrication numérique",
+      "categorySource": "ai",
+      "date": "2026-06-03T16:31:40+00:00",
+      "domain": "grid.space"
+    },
     {
       "id": "<PR0P264MB42822FC90D6402B694611DECE5392@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://stephaneginier.com/sculptgl/",
