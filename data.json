@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-06-04T08:28:16+00:00",
+  "lastUpdated": "2026-06-09T09:28:09+00:00",
   "resources": [
+    {
+      "id": "<CAA7evP8u2UJAfpUc5wdeZoKsBF2v+vYxvuKCOLXbuw_A=qL7rw@mail.gmail.com>",
+      "url": "https://www.schematik.io/app",
+      "note": "",
+      "description": "Schematik est une plateforme alimentée par l'IA qui permet à quiconque de concevoir et développer du matériel électronique. L'entreprise a levé 4,6 millions de dollars en financement de pré-amorçage pour démocratiser l'accès aux outils de conception matérielle.",
+      "category": "Intelligence artificielle",
+      "categorySource": "ai",
+      "date": "2026-06-08T14:17:12+00:00",
+      "domain": "www.schematik.io"
+    },
     {
       "id": "<CAA7evP_y7Sj=++SvbyPA0+ApHXhi_8LMUiQ=zP1Wfau3soGyWw@mail.gmail.com>",
       "url": "https://grid.space/kiri/",
