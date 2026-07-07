@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Mise à jour quotidienne de data.json.
 
@@ -60,19 +61,61 @@ def decode_mime(value: str | None) -> str:
     )
 
 
+def _decode_part(part: email.message.Message) -> str:
+    payload = part.get_payload(decode=True)
+    if not payload:
+        return ""
+    charset = part.get_content_charset() or "utf-8"
+    return payload.decode(charset, errors="replace")
+
+
+def _html_to_text(html: str) -> str:
+    """Convertit un corps HTML en texte, en préservant les URLs des liens.
+
+    Beaucoup de clients (Apple Mail, Outlook web, Gmail rich compose) envoient
+    des mails dont le corps texte est vide et où l'URL n'existe que dans un
+    attribut href. On collecte donc explicitement les href avant strip.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    urls: list[str] = []
+    for a in soup.find_all("a"):
+        href = (a.get("href") or "").strip()
+        if href.startswith(("http://", "https://")) and href not in urls:
+            urls.append(href)
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    text = soup.get_text("\n", strip=True)
+    # Injecte les URLs en tête pour qu'elles soient captées par le regex plus tard,
+    # même si elles n'apparaissent nulle part dans le texte visible.
+    return ("\n".join(urls) + "\n" + text).strip() if urls else text
+
+
 def get_plaintext_body(msg: email.message.Message) -> str:
+    """Renvoie le corps de l'email en texte, avec fallback HTML → texte."""
+    plain_text = ""
+    html_text = ""
+
     if msg.is_multipart():
         for part in msg.walk():
-            if part.get_content_type() == "text/plain":
-                payload = part.get_payload(decode=True)
-                if payload:
-                    charset = part.get_content_charset() or "utf-8"
-                    return payload.decode(charset, errors="replace")
-    payload = msg.get_payload(decode=True)
-    if payload:
-        charset = msg.get_content_charset() or "utf-8"
-        return payload.decode(charset, errors="replace")
-    return ""
+            ctype = part.get_content_type()
+            if ctype == "text/plain" and not plain_text:
+                plain_text = _decode_part(part)
+            elif ctype == "text/html" and not html_text:
+                html_text = _decode_part(part)
+    else:
+        ctype = msg.get_content_type()
+        content = _decode_part(msg)
+        if ctype == "text/html":
+            html_text = content
+        else:
+            plain_text = content
+
+    # Préfère le plain-text s'il contient déjà une URL exploitable, sinon HTML→texte
+    if plain_text and URL_RE.search(plain_text):
+        return plain_text
+    if html_text:
+        return _html_to_text(html_text)
+    return plain_text
 
 
 _NOTE_STOP_PATTERNS = [
