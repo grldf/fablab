@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-06-09T09:28:09+00:00",
+  "lastUpdated": "2026-07-07T12:43:59+00:00",
   "resources": [
+    {
+      "id": "<713F1BBA-3D76-4B9F-81BA-244A4ECA264F@gmail.com>",
+      "url": "https://terraink.app",
+      "note": "",
+      "description": "Terraink est une plateforme web dédiée à la conception et à la modélisation de terrains. Elle permet de créer, visualiser et manipuler des modèles numériques de terrain de manière intuitive.",
+      "category": "Modélisation 3D",
+      "categorySource": "ai",
+      "date": "2026-07-07T10:48:56+00:00",
+      "domain": "terraink.app"
+    },
+    {
+      "id": "<3B751063-F4FE-4710-AB53-C7488ABA20F4@gmail.com>",
+      "url": "https://terraink.app/",
+      "note": "",
+      "description": "Outil en ligne gratuit permettant de créer des posters de cartes et des fonds d'écran personnalisés. Idéal pour générer des visualisations cartographiques uniques et les exporter pour une utilisation murale ou numérique.",
+      "category": "Cartographie",
+      "categorySource": "ai",
+      "date": "2026-07-03T14:59:23+00:00",
+      "domain": "terraink.app"
+    },
     {
       "id": "<CAA7evP8u2UJAfpUc5wdeZoKsBF2v+vYxvuKCOLXbuw_A=qL7rw@mail.gmail.com>",
       "url": "https://www.schematik.io/app",
