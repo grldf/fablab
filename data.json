@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-07-07T12:43:59+00:00",
+  "lastUpdated": "2026-08-13T07:15:02+00:00",
   "resources": [
+    {
+      "id": "<2FBF1160-C79B-4D8D-B598-F5ECC33FF53D@gmail.com>",
+      "url": "https://tool.itslitho.com/",
+      "note": "",
+      "description": "Outil en ligne permettant de convertir des images en lithophanes pour l'impression 3D. Application web intuitive dédiée à la création de lithophanes à partir de vos photos.",
+      "category": "lithophanie",
+      "categorySource": "manual",
+      "date": "2026-08-12T12:41:02+00:00",
+      "domain": "tool.itslitho.com"
+    },
     {
       "id": "<713F1BBA-3D76-4B9F-81BA-244A4ECA264F@gmail.com>",
       "url": "https://terraink.app",
