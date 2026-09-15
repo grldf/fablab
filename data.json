@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-08-13T07:15:02+00:00",
+  "lastUpdated": "2026-09-15T10:45:16+00:00",
   "resources": [
+    {
+      "id": "<PR0P264MB4282EE2DCEBB50E25DEA590AE5BB2@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://tiny-online.tools/3d-printing-tools/mesh-hollowing-tool",
+      "note": "",
+      "description": "Outil en ligne gratuit pour creuser des modèles 3D fermés en définissant une épaisseur de paroi personnalisée. Permet de visualiser les économies de résine ou de filament et d'exporter le résultat en plusieurs formats.",
+      "category": "Fabrication numérique",
+      "categorySource": "ai",
+      "date": "2026-09-14T14:45:43+00:00",
+      "domain": "tiny-online.tools"
+    },
     {
       "id": "<2FBF1160-C79B-4D8D-B598-F5ECC33FF53D@gmail.com>",
       "url": "https://tool.itslitho.com/",
