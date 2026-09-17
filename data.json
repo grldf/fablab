@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-09-15T10:45:16+00:00",
+  "lastUpdated": "2026-09-17T10:43:44+00:00",
   "resources": [
+    {
+      "id": "<PR0P264MB4282A8CE39FE420A76503202E5B92@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://www.luban3d.com/",
+      "note": "",
+      "description": "LuBan est un logiciel de conception générative qui aide les créateurs à produire rapidement des modèles 3D à partir d'images 2D ou 3D. Il génère automatiquement des formes variées (lithophanie, empilage, relief, etc.) optimisées pour l'impression 3D, la découpe laser et l'usinage CNC.",
+      "category": "Modélisation 3D",
+      "categorySource": "ai",
+      "date": "2026-09-16T14:19:48+00:00",
+      "domain": "www.luban3d.com"
+    },
     {
       "id": "<PR0P264MB4282EE2DCEBB50E25DEA590AE5BB2@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://tiny-online.tools/3d-printing-tools/mesh-hollowing-tool",
