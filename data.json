@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-09-17T10:43:44+00:00",
+  "lastUpdated": "2026-10-13T13:15:51+00:00",
   "resources": [
+    {
+      "id": "<PR0P264MB4282EC650CBE1CCB1CDADE5BE59E2@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
+      "url": "https://brickforge.xyz/",
+      "note": "",
+      "description": "BrickForge est un outil gratuit qui convertit les pièces de sets LEGO en fichiers STL et 3MF prêts à imprimer. Il organise automatiquement les fichiers par couleur de filament et génère des listes de pièces au format Excel pour faciliter l'impression 3D.",
+      "category": "Modélisation 3D",
+      "categorySource": "ai",
+      "date": "2026-10-13T08:58:02+00:00",
+      "domain": "brickforge.xyz"
+    },
     {
       "id": "<PR0P264MB4282A8CE39FE420A76503202E5B92@PR0P264MB4282.FRAP264.PROD.OUTLOOK.COM>",
       "url": "https://www.luban3d.com/",
